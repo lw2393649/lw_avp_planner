@@ -17,6 +17,7 @@ Planner::Planner() {
   pubStart = n.advertise<geometry_msgs::PoseStamped>("/move_base_simple/start", 1);
 
 std::cout<<"first revise"<<std::endl;
+std::cout<<"second revise"<<std::endl;
 
   // ___________________
   // TOPICS TO SUBSCRIBE
