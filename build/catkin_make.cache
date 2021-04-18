@@ -1,0 +1,2 @@
+path_planner
+-DCATKIN_DEVEL_PREFIX=/home/liwei/My_project/my_avp/devel -DCMAKE_INSTALL_PREFIX=/home/liwei/My_project/my_avp/install -G Unix Makefiles
