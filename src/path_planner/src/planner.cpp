@@ -16,6 +16,8 @@ Planner::Planner() {
   // TOPICS TO PUBLISH
   pubStart = n.advertise<geometry_msgs::PoseStamped>("/move_base_simple/start", 1);
 
+std::cout<<"first revise"<<std::endl;
+
   // ___________________
   // TOPICS TO SUBSCRIBE
   if (Constants::manual) {
